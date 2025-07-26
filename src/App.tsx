@@ -14,7 +14,6 @@ import BookingPage from './pages/BookingPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import AdminPage from './pages/AdminPage';
-import ReturnAnalysisPage from './pages/ReturnAnalysisPage';
 
 function App() {
   return (
@@ -32,7 +31,6 @@ function App() {
               <Route path="/chat" element={<ChatPage />} />
               <Route path="/chat/:threadId" element={<ChatPage />} />
               <Route path="/booking/:id" element={<BookingPage />} />
-              <Route path="/return/:id" element={<ReturnAnalysisPage />} />
               <Route path="/login" element={<LoginPage />} />
               <Route path="/register" element={<RegisterPage />} />
               <Route path="/admin" element={<AdminPage />} />
